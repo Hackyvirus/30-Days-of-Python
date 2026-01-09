@@ -5,6 +5,7 @@ R = float(input("Enter Rate: "))
 T = float(input("Enter Time Period: "))
 
 print("\nCalculating Simple Interest -----\n")
+
 I = (P * R * T)/100
 
 print(f"Simple Interest: {I}")
