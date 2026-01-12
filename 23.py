@@ -5,7 +5,7 @@ temp = number
 r = 0
 while temp > 0:
     r *= 10
-    r += temp%10
+    r += temp%10 
     temp //= 10 
 
 if r == number:
